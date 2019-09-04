@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #251B1B;
+    background-color: #FEC156;
+}
+
+.header-section {
+    background-color: #251B1B;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-section h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.container {
+    width: 720px;
+    margin: 0 auto;
+}
+
+.levels {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.levels p {
+    margin-right: 20px;
+}
+
+.levels select {
+    border: 1px solid #251B1B;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.top-info {
+    margin: 30px 0 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.seconds-text {
+    display: inline-block;
+}
+
+.random-word {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.random-word h2 {
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form input[type=text] {
+    width: 80%;
+    padding: 15px 15px;
+    border: 2px solid #251B1B;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.form input[type=text]:focus {
+    border: 2px solid #0180FE;
+}
+
+.seconds, .time, .score {
+    color: #FF2626;
+}
+
+.message {
+    font-size: 25px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.time-score {
+    margin: 20px 0 20px 0;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.high-score {
+    width: 60%;
+    background: #FF2626;
+    color: #fff;
+    margin: 10px 0 10px 0;
+    font-size: 25px;
+    border-radius: 4px;
+
+    margin: 0 auto;
+}
+
+.high-score p {
+    text-align: center;
+}
+
+.instructions {
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instructions-box {
+    text-align: center;
+    color: #fff;
+    width: 80%;
+    padding: 30px 30px;
+    background-color: #251B1B;
+    border-radius: 4px;
+}
